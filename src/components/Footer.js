@@ -32,25 +32,25 @@ const Footer = () => {
 
                 {/* Links */}
                 <div className="grid grid-cols-2 gap-y-2 py-10 px-6 text-white md:w-1/3 md:grow md:p-0">
-                    <a className="hover:text-darkGrayishBlue" href="/">
+                    <a className="hover:text-brightRed" href="/">
                         Home
                     </a>
-                    <a className="hover:text-darkGrayishBlue" href="/">
+                    <a className="hover:text-brightRed" href="/">
                         Careers
                     </a>
-                    <a className="hover:text-darkGrayishBlue" href="/">
+                    <a className="hover:text-brightRed" href="/">
                         Pricing
                     </a>
-                    <a className="hover:text-darkGrayishBlue" href="/">
+                    <a className="hover:text-brightRed" href="/">
                         Community
                     </a>
-                    <a className="hover:text-darkGrayishBlue" href="/">
+                    <a className="hover:text-brightRed" href="/">
                         Products
                     </a>
-                    <a className="hover:text-darkGrayishBlue" href="/">
+                    <a className="hover:text-brightRed" href="/">
                         Privacy Policy
                     </a>
-                    <a className="hover:text-darkGrayishBlue" href="/">
+                    <a className="hover:text-brightRed" href="/">
                         About Us
                     </a>
                 </div>

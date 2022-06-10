@@ -9,7 +9,7 @@ const CTA = () => {
                 </h2>
                 <a
                     href="/"
-                    className=" rounded-full bg-white p-3 px-6 pt-2 text-brightRed shadow-2xl hover:bg-brightRedSupLight"
+                    className=" rounded-full bg-white p-3 px-6 pt-2 text-brightRed shadow-2xl hover:bg-brightRedSupLight hover:shadow-md hover:shadow-brightRed"
                 >
                     Get Started
                 </a>
