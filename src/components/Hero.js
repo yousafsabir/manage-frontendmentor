@@ -1,5 +1,6 @@
 import React from "react";
 import HeroImg from "../assets/img/illustration-intro.svg";
+import GetStartedButton from "./GetStartedButton";
 
 const Hero = () => {
     return (
@@ -16,12 +17,7 @@ const Hero = () => {
                         view.
                     </p>
                     <div className="flex justify-center md:justify-start">
-                        <a
-                            href="/"
-                            className="self-baseline rounded-full bg-brightRed p-3 px-6 pt-2 text-white hover:bg-brightRedLight"
-                        >
-                            Get Started
-                        </a>
+                        <GetStartedButton />
                     </div>
                 </div>
                 {/* right */}

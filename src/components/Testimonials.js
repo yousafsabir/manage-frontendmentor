@@ -1,5 +1,6 @@
 import React from "react";
 import TestimonialArticles from "./TestimonialArticles";
+import GetStartedButton from "./GetStartedButton";
 import Anisha from "../assets/img/avatar-anisha.png";
 import Ali from "../assets/img/avatar-ali.png";
 import Richard from "../assets/img/avatar-richard.png";
@@ -32,6 +33,9 @@ const Testimonials = () => {
                         maintain visibility on larger milestones at all times keeps
                         everyone motivated.”"
                     />
+                </div>
+                <div className="py-16">
+                    <GetStartedButton />
                 </div>
             </div>
         </section>

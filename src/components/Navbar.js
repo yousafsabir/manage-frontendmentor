@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/img/logo.svg";
+import GetStartedButton from "./GetStartedButton";
 
 const Navbar = () => {
     return (
@@ -28,12 +29,9 @@ const Navbar = () => {
                     </a>
                 </div>
                 {/* Button */}
-                <a
-                    href="/"
-                    className="hidden self-baseline rounded-full bg-brightRed p-3 px-6 pt-2 text-white hover:bg-brightRedLight md:block"
-                >
-                    Get Started
-                </a>
+                <div className="hidden md:block">
+                    <GetStartedButton />
+                </div>
             </div>
         </nav>
     );
