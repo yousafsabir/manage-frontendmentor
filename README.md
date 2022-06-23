@@ -1,3 +1,3 @@
 # manage app frontend-mentor
 
-### Check it [here](https://yousafsabir.github.io/manage-frontendmentor/)
+### Check it [here](http://automatic-random.surge.sh/)
