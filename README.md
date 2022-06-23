@@ -2,4 +2,4 @@
 
 ![Manage, ScreenShot](/screen.png)
 
-### Check it [here](http://automatic-random.surge.sh/)
+### Check it live [here](http://automatic-random.surge.sh/)
