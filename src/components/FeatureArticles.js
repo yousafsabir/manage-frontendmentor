@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 const FeatureArticles = (props) => {
     return (
@@ -23,11 +22,6 @@ const FeatureArticles = (props) => {
             </div>
         </article>
     );
-};
-FeatureArticles.propTypes = {
-    number: PropTypes.string,
-    heading: PropTypes.string,
-    text: PropTypes.string,
 };
 
 export default FeatureArticles;
