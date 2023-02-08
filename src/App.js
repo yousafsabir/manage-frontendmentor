@@ -9,8 +9,10 @@ import Testimonials from "./components/Testimonials";
 function App() {
     return (
         <>
-            <Navbar />
-            <Hero />
+            <div className="bg-header bg-bottom bg-no-repeat">
+                <Navbar />
+                <Hero />
+            </div>
             <Features />
             <Testimonials />
             <CTA />

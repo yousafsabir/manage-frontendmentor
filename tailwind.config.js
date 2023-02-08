@@ -19,6 +19,9 @@ module.exports = {
                 veryPaleRed: "hsl(13, 100%, 96%)",
                 veryLightGray: "hsl(0, 0%, 98%)",
             },
+            backgroundImage: {
+                header: "url('/public/img/bg-tablet-pattern.svg')",
+            },
         },
     },
     plugins: [],

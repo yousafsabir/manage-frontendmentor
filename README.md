@@ -2,4 +2,4 @@
 
 ![Manage, ScreenShot](/screen.png)
 
-### Check it live [here](http://automatic-random.surge.sh/)
+### Check it live [here](https://manage-frontendmentor.vercel.app/)
