@@ -32,27 +32,25 @@ const Footer = () => {
 
                 {/* Links */}
                 <div className="grid grid-cols-2 gap-y-2 py-10 px-6 text-white md:w-1/3 md:grow md:p-0">
-                    <a className="hover:text-brightRed" href="/">
-                        Home
-                    </a>
-                    <a className="hover:text-brightRed" href="/">
-                        Careers
-                    </a>
-                    <a className="hover:text-brightRed" href="/">
-                        Pricing
-                    </a>
-                    <a className="hover:text-brightRed" href="/">
-                        Community
-                    </a>
-                    <a className="hover:text-brightRed" href="/">
-                        Products
-                    </a>
-                    <a className="hover:text-brightRed" href="/">
-                        Privacy Policy
-                    </a>
-                    <a className="hover:text-brightRed" href="/">
-                        About Us
-                    </a>
+                    {[
+                        "Home",
+                        "Careers",
+                        "Pricing",
+                        "Community",
+                        "Products",
+                        "Privacy Policy",
+                        "About Us",
+                    ].map((item, i) => {
+                        return (
+                            <a
+                                className="hover:text-brightRed"
+                                href="/"
+                                key={i}
+                            >
+                                {item}
+                            </a>
+                        );
+                    })}
                 </div>
 
                 {/* Input */}
@@ -68,7 +66,15 @@ const Footer = () => {
                         </button>
                     </div>
                     <h3 className="hidden text-right text-sm text-darkGrayishBlue md:block">
-                        Copyright 2022. All rights reserved
+                        Copyright 2022. All rights reserved <br />
+                        made with 💖 and 🔥 by{" "}
+                        <a
+                            href="https://linkedin.com/in/yousafsabir"
+                            target={"_blank"}
+                            className={"text-brightRed"}
+                        >
+                            M. Yousaf
+                        </a>
                     </h3>
                 </div>
             </div>

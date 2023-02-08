@@ -17,21 +17,23 @@ const Navbar = () => {
                 </div>
                 {/* Menu */}
                 <div className="hidden space-x-6 md:flex">
-                    <a href="/" className="hover:text-darkGrayishBlue">
-                        Pricing
-                    </a>
-                    <a href="/" className="hover:text-darkGrayishBlue">
-                        Product
-                    </a>
-                    <a href="/" className="hover:text-darkGrayishBlue">
-                        About Us
-                    </a>
-                    <a href="/" className="hover:text-darkGrayishBlue">
-                        Careers
-                    </a>
-                    <a href="/" className="hover:text-darkGrayishBlue">
-                        Community
-                    </a>
+                    {[
+                        "Pricing",
+                        "Product",
+                        "About Us",
+                        "Careers",
+                        "Community",
+                    ].map((item, i) => {
+                        return (
+                            <a
+                                href="/"
+                                className="cursor-pointer hover:text-darkGrayishBlue"
+                                key={i}
+                            >
+                                {item}
+                            </a>
+                        );
+                    })}
                 </div>
                 {/* CTA */}
                 <div className="hidden md:block">
